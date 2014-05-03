@@ -1,0 +1,39 @@
+{
+    "name": "molajito/blog",
+    "description": "Sample Foundation5 Blog Theme for Molajito Rendering Engine for PHP Applications",
+    "version": "1.0.0",
+    "type": "molajito-theme",
+    "keywords": ["render", "molajo", "molajito"],
+    "homepage": "http://github.com/Molajo/Molajito",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Amy Stephen",
+            "email": "AmyStephen@molajo.org",
+            "homepage": "http://AmyStephen.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Molajito/Blog/issues",
+        "forum": "https://groups.google.com/forum/#!forum/molajo",
+        "irc": "irc://irc.freenode.org/molajo",
+        "source": "https://github.com/Molajito/Blog"
+    },
+
+    "require": {
+        "molajo/molajito": "dev-master"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Molajito\\": "Source/"
+        }
+    },
+
+    "archive": {
+        "exclude": ["/.dev"]
+    },
+
+    "minimum-stability": "dev"
+}
